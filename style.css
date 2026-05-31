@@ -1,0 +1,534 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #191970;
+    margin: 0;
+}
+
+/* ÜST MENÜ */
+.y-ust-menu {
+    background: #0f0f4f;
+    padding: 10px;
+}
+
+.y-menu {
+    text-align: center;
+}
+
+.y-menu a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ANA KUTU */
+.y-ana-kutu {
+    width: 380px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 15px;
+    border: 2px solid #191970;
+}
+
+/* BAŞLIK */
+.y-baslik {
+    text-align: center;
+    color: #191970;
+    border-bottom: 2px solid #191970;
+    padding-bottom: 8px;
+}
+
+/* MENÜ KUTUSU */
+.y-menu-kutu {
+    border: 2px solid #191970;
+    margin-top: 15px;
+}
+
+.y-menu-baslik {
+    background: #191970;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.y-menu-icerik {
+    text-align: center;
+    padding: 6px;
+    color: #191970;
+}
+
+/* BİLGİ */
+.y-bilgi-kutu {
+    border: 2px solid #191970;
+    padding: 10px;
+    margin-top: 15px;
+    color: #191970;
+}
+
+/* FORM */
+.y-form-kutu {
+    border: 2px solid #191970;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.y-form-satir {
+    margin-bottom: 10px;
+}
+
+.y-form-satir label {
+    display: block;
+    margin-bottom: 4px;
+    color: #191970;
+}
+
+/* INPUTLAR */
+input, select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1.5px solid #191970;
+}
+
+textarea {
+    height: 60px;
+}
+
+/* RADIO */
+.y-radio-grup {
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTON */
+.y-buton {
+    width: 100%;
+    padding: 8px;
+    background: #191970;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* HARİTA */
+.y-harita {
+    border: 2px solid #191970;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+    color: #333;
+}
+
+/* Sayfa başlığı */
+#y-sayfa-baslik {
+    text-align: center;
+    color: #191970;
+    margin-bottom: 30px;
+}
+
+/* Ana kutu */
+.y-ana-kutu {
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px solid #191970;
+    border-radius: 8px;
+}
+
+/* Menü */
+#y-ana-menu {
+    background-color: #191970;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #191970;
+}
+
+/* Alt menü */
+.y-alt-menu {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #191970;
+    background-color: #191970;
+    border: 2px solid #191970;
+    border-top: none;
+}
+
+/* Açıklama alanı */
+.y-aciklama-alani {
+    margin-top: 25px;
+    padding: 20px;
+    border: 2px solid #191970;
+    background-color: white;
+}
+
+.y-aciklama-baslik {
+    margin-top: 0;
+    color: #191970;
+}
+
+/* Tablo başlığı */
+.y-tablo-baslik {
+    text-align: center;
+    margin-top: 30px;
+    color: #191970;
+}
+
+/* Hizmet tablosu */
+.y-hizmet-tablosu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 2px solid #191970;
+}
+
+.y-hizmet-tablosu th {
+    background-color: #191970;
+    color: white;
+    padding: 10px;
+}
+
+.y-hizmet-tablosu td {
+    padding: 10px;
+    border: 1px solid #191970;
+}
+
+/* nth-child ile şeritli tablo */
+.y-hizmet-tablosu tr:nth-child(even) {
+    background-color: #f0f0ff;
+}
+
+/* GENEL AYARLAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.y-ana-renk {
+  color: #191970;
+}
+
+.y-acik-renk {
+  color: #2c2c8a;
+}
+
+.y-yazi-renk {
+  color: #333;
+}
+
+
+/* ÜST MENÜ */
+.y-ust-menu {
+  background-color: var(--y-ana-renk);
+  padding: 15px;
+}
+
+.y-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.y-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.y-menu a:hover {
+  color: #d6d6ff;
+}
+
+/* SAYFA İÇERİĞİ */
+.y-sayfa-alan {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.y-sayfa-alan h1 {
+  margin-bottom: 15px;
+  color: var(--y-ana-renk);
+}
+
+.y-sayfa-alan p {
+  color: var(--y-yazi-renk);
+  font-size: 15px;
+}
+
+/* GENEL ARKA PLAN */
+body {
+  background-color: #191970;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Üst menüyü ana renk #191970 yaptım */
+.y-ust-menu{
+    background:#191970;
+    padding:15px;
+    text-align:center;
+}
+
+/* Menü linkleri sade ve okunaklı olsun diye */
+.y-ust-menu a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Kapak alanını referans olsun diye relative yaptım */
+.y-kapak-alani{
+    position:relative;
+    height:100%;
+    overflow:hidden;
+width: 100%;
+}
+
+
+/* 
+Hocam burada resmi relative yaptım
+çünkü  aşağı indirmek istiyoruz
+object-position yetmiyor
+*/
+.y-kapak-resim{
+    position:relative;
+    top: 50px;;          /*  RESMİ AŞAĞI İNDİREN ASIL SATIR */
+    left: 50px;;
+    width:120%;
+    height:100%;
+    object-fit:cover;
+    object-position: center 50%;
+    display: block;
+    
+}
+
+/* Yazıyı resmin üstüne almak için z-index kullandım */
+.y-karsilama-yazi{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:2;
+    text-align:center;
+    color:#ffffff;
+    background:rgba(25,25,112,0.65); /* #191970 */
+    padding:16px 30px;
+    border-radius:12px;
+}
+
+/* Video alanını geniş ama yakın tuttum */
+.y-video-alani{
+    max-width:1100px;
+    margin:10px auto; /* Hocam boşluk olmasın diye düşük tuttum */
+    padding:20px;
+    background:#191970;
+    border-radius:15px;
+    text-align:center;
+}
+
+
+.y-video-alani h2{
+    color:#ffffff;
+    margin-bottom:12px;
+}
+
+
+.y-video-kutu iframe{
+    width:100%;
+    height:320px;
+    border-radius:10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #191970;
+}
+
+
+.y-ust-alan {
+    background-color: #191970;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.y-site-baslik {
+    font-size: 30px;
+}
+
+/* Hocam açıklama yazısını biraz daha yumuşak göstermek için
+   daha açık bir beyaz tonu kullandım */
+.y-site-aciklama {
+    margin-top: 6px;
+    color: #e6e6ff;
+}
+
+/* Hocam ana alanı ortalamak için max-width kullandım
+   çünkü çok geniş ekranlarda içerik dağınık duruyor */
+.y-ana-alan {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+/* Hocam burada flex kullandım çünkü resim ve yazı
+   yan yana durmalıydı */
+.y-haber-kutusu {
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+    /* Hocam overflow hidden verdim çünkü büyük resimler
+       kutunun dışına taşmasın istedim */
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Hocam resim alanına sabit genişlik ve yükseklik verdim
+   çünkü her haber görseli aynı boyutta olsun istedim */
+.y-haber-resim {
+    width: 240px;
+    height: 160px;
+    background-color: #e0e0e0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+/* Hocam burada object-fit cover kullandım
+   çünkü resim bozulmadan kutuyu doldursun istedim */
+.y-haber-resim img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Hocam içerik alanına padding verdim
+   çünkü yazılar kenarlara yapışık durmasın */
+.y-haber-icerik {
+    padding: 18px;
+    flex: 1;
+}
+
+/* Hocam başlık rengini ana renk yaptım
+   çünkü siteyle görsel uyum sağlaması gerekiyordu */
+.y-haber-baslik {
+    font-size: 20px;
+    color: #191970;
+    margin-bottom: 8px;
+}
+
+.y-haber-metin {
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+
+.y-devam-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #191970;
+    color: #ffffff;
+    padding: 7px 13px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.y-devam-link:hover {
+    background-color: #2a2aa5;
+}
+
+
+.y-alt-alan {
+    text-align: center;
+    padding: 20px;
+    background-color:#191970; 
+    color: #777777;
+    margin-top: 40px;
+}
+
+
+/* Hocam burada flex kullandım çünkü
+   input ile ikonu yan yana koymam gerekiyordu */
+.y-ikon-satir {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* İkonu biraz büyüttüm ve renk verdim
+   inputtan ayırt edilsin diye */
+.y-ikon-satir i {
+    color: #191970;
+    font-size: 18px;
+}
+/* Hocam burada flex kullandım çünkü
+   ikon ile input yan yana durmalıydı */
+.y-ikon-satir {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #191970;
+    padding: 6px;
+    background: #fff;
+}
+
+/* İkon için alan ayırdım,
+   aşağı düşmemesi için */
+.y-ikon-satir i {
+    color: #191970;
+    font-size: 18px;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+/* Burada inputa width 100% vermedim
+   çünkü ikonla aynı satırı paylaşacak */
+.y-ikon-satir input {
+    border: none;
+    outline: n
+}
+
+
+
+
+
+
+
+
